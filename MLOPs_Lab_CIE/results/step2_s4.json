@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/score",
+  "port": 8500,
+  "health_response": {
+    "alive": true,
+    "service": "CartWave return_probability_pct API"
+  },
+  "test_input": {
+    "product_price": 2607.6,
+    "delivery_days": 7,
+    "customer_rating": 3.1,
+    "is_first_order": 1
+  },
+  "prediction": 31.9847
+}

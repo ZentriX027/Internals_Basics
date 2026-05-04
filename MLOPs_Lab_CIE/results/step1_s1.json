@@ -1,0 +1,20 @@
+{
+  "experiment_name": "cartwave-return-probability-pct",
+  "models": [
+    {
+      "name": "Lasso",
+      "mae": 7.5203,
+      "rmse": 9.4212,
+      "r2": 0.2999
+    },
+    {
+      "name": "RandomForest",
+      "mae": 8.581,
+      "rmse": 10.1661,
+      "r2": 0.1849
+    }
+  ],
+  "best_model": "Lasso",
+  "best_metric_name": "rmse",
+  "best_metric_value": 9.4212
+}
